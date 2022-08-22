@@ -29,9 +29,6 @@ Hash file successfully written as: hashcat.hash
 $ hashcat -m 10900 hashcat.hash /usr/share/wordlists/rockyou.txt --potfile-disable
 hashcat (v6.2.5) starting
 
-hashcat -m 10900 hashcat.hash /usr/share/wordlists/rockyou.txt --potfile-disable
-hashcat (v6.2.5) starting
-
 OpenCL API (OpenCL 2.0 pocl 1.8  Linux, None+Asserts, RELOC, LLVM 11.1.0, SLEEF, DISTRO, POCL_DEBUG) - Platform #1 [The pocl project]
 =====================================================================================================================================
 * Device #1: pthread-11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz, 2904/5872 MB (1024 MB allocatable), 4MCU
